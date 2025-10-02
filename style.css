@@ -4,17 +4,23 @@
     padding:0px;
 }
 body{
-    /*Hides the  bottom scrollbar*/
-    overflow: hidden;
+    background: linear-gradient ( To bottom, #1a1a2e, #16213e #0f3460);
+    color: #f0e6d2;
+    front-family: 'Cinzel', serif;
 }
 /*Styling of the Game's Name*/
-#gameName{
-    position: absolute;
-    left: 24vw;
-    background-color: white;
-    font-weight: bold;
-    font-size: 4rem;
-
+·game-title {
+    front-family: 'Cinzel Decorative', serif;
+    front-size: 60 px;
+    color: #f39c12;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7),
+                 0 0 25px #f1c40f,
+                 0 0 50px #e67e22;
+    margin-top: 30px;
+    animation: glowing 3s infinite alternate;
 }
 /*Background image styling*/
 .container{
@@ -112,3 +118,4 @@ body{
     background-color: firebrick;
     border-radius: 20px;
 }
+
